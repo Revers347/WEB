@@ -1,0 +1,227 @@
+.profileInfo {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+  }
+  .profileInfo .username {
+    font-family: Verdana, serif;
+    font-size: 25px;
+    margin: 15px 10px;
+  }
+  .profileInfo .bio {
+    margin-bottom: auto;
+    margin-top: 10%;
+    margin-right: 15%;
+    font-family: Verdana, serif;
+  }
+  
+  .recommendation .recItems {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .recommendation .recTitle {
+    padding-left: 20px;
+  }
+  
+  .article {
+    margin: 0;
+    padding: 0 25px;
+  }
+  .article .articleTopic {
+    text-transform: uppercase;
+  }
+  .article a {
+    text-decoration: none;
+    color: rgb(153, 39, 39);
+  }
+  
+  .inputForm {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .inputForm h1 {
+    color: #1d1d1d;
+    font-family: Verdana, serif;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+    background: rgb(153, 39, 39);
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 4px;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  ul.nav {
+    display: flex;
+  }
+  ul.nav li {
+    padding: 20px;
+    list-style-type: none;
+  }
+  ul.nav li a {
+    display: block;
+    position: relative;
+    margin: 0 10px;
+    padding: 0 15px;
+    color: #2b2b2b;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+  ul.nav li a:hover {
+    color: white;
+  }
+  
+  header {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: #2b6756;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+  }
+  header .headerRightMenu {
+    margin-left: auto;
+    margin-right: 3%;
+  }
+  header .logoWrapper {
+    margin-right: auto;
+    margin-left: 3%;
+  }
+  header .logoWrapper .logoImg {
+    height: 50px;
+    width: auto;
+    padding: 10px;
+  }
+  
+  .headerRightMenu {
+    height: 50px;
+    width: auto;
+    display: flex;
+  }
+  .headerRightMenu .profileImg {
+    height: 50px;
+    width: auto;
+    padding: 10px;
+  }
+  .headerRightMenu .authButtons {
+    margin: 20% 0;
+  }
+  .headerRightMenu .authButtons a {
+    color: #2b2b2b;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+  .headerRightMenu .authButtons a:hover {
+    color: white;
+  }
+  
+  .topicsBlock {
+    display: block;
+    background: rgba(147, 74, 74, 0.9960784314);
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  .topicsBlock ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .topicsBlock ul li {
+    width: 20%;
+    padding: 0 20px;
+    list-style-type: none;
+  }
+  .topicsBlock ul li a {
+    color: #2b2b2b;
+    font-size: 20px;
+    font-family: Verdana, serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+  .topicsBlock ul li a:hover {
+    color: white;
+  }
+  
+  .mainInner {
+    height: 100%;
+    display: block;
+  }
+  
+  .addArea {
+    background: rgb(193, 193, 193);
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+  }
+  
+  .add {
+    width: 40%;
+    padding: 2.5%;
+    margin: 5px 10px 25px 2.5%;
+    border-radius: 10px;
+    border: #2b6756 solid;
+  }
+  .add .addHeader {
+    font-family: Verdana, serif;
+    font-size: 25px;
+    color: #2b2b2b;
+  }
+  .add .addText {
+    font-family: Verdana, serif;
+    color: #2b2b2b;
+  }
+  .add a {
+    text-decoration: none;
+    color: #2b2b2b;
+  }
+  .add .topic {
+    text-transform: uppercase;
+    font-family: Verdana, serif;
+  }
+  .add:hover {
+    border-color: rgba(147, 74, 74, 0.9960784314);
+  }
+  .add:hover .addHeader {
+    color: #2b2b2b;
+  }
+  
+  footer {
+    background: #2b6756;
+  }
+  footer .contacts {
+    display: inline-flex;
+  }
+  footer .contacts p {
+    margin: 25px;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
